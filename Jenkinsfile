@@ -9,7 +9,6 @@ pipeline
             {
                 //bat 'mvn -B -DskipTests clean package' 
                 echo "${WORKSPACE}"
-                echo "${WORKSPACE}\"
                 echo "PATH = ${PATH}"
                 echo "M2_HOME = ${MAVEN_HOME}"
             }
