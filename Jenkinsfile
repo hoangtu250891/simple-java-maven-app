@@ -7,7 +7,8 @@ pipeline
         { 
             steps 
             {
-                bat 'mvn -B -DskipTests clean package' 
+                //bat 'mvn -B -DskipTests clean package' 
+                echo "${params.WORKSPACE}"
             }
         }
         stage('Test') 
